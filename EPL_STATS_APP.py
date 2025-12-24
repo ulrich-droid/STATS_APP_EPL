@@ -337,7 +337,7 @@ ax.set_title("Moyenne des notes par sexe")
 export_plot(fig, "moyenne_notes_par_sexe.png", "📊 Moyenne des notes par sexe")
 
 # ---------------- CLASSEMENT ----------------
-st.subheader("🏆 Classement des étudiants par")
+st.subheader("🏆 Classement des étudiants ")
 
 try:
     df_classement = df_modif.copy()
